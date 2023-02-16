@@ -13,6 +13,7 @@ const port = process.env.PORT || 4000;
 const reactClientURL = 'http://localhost:3000'; // react client
 
 // Middleware
+app.use(express.static('../client/dist'))
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(
