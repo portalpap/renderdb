@@ -1,0 +1,27 @@
+#root {
+    width: 100vw;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+.App{
+	height: 100vh;
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+}
+.App div{
+	display: flex;
+	flex-direction: column;
+	height: max-content;
+}
+.App div *{
+	min-height: 30px;
+	margin-bottom: 1em;
+}
